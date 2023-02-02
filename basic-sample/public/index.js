@@ -201,31 +201,35 @@ function createListData(dataurl, callback) {
     method: "GET",
     dataType: "json",
   })
-    .done(function (json) {
-      const reader = (prop, value) => {
-        if (prop === "DATA_STD_DTM") {
-          return new Date(value.substring(0, value.length - 3));
-        }
-        return value;
-      };
-      const options = {
-        title: "요소수 판매 정보",
-        fields: [
-          { name: "OILSTATN_NM", label: "주유소 명" },
-          { name: "LOCPLC_ROADNM_ADDR", label: "도로명 주소" },
-          { name: "TELNO", label: "전화 번호" },
-          { name: "QTY", label: "수량", type: "number" },
-          { name: "LAT", label: "위도", type: "number" },
-          { name: "LOGT", label: "경도", type: "number" },
-          { name: "DATA_STD_DTM", type: "date", label: "데이터 입력 일시" },
-        ],
-      };
-      data = RealTouch.createListData("", options, { values: json, reader: reader }).createView("view", { sort: "OILSTATN_NM" }).slice("slice", [0, 15]).sort(["OILSTATN_NM"]).build();
-      callback();
-    })
-    .fail(function (xhr, status, error) {
-      alert(error + ": " + status);
-    });
+  .done(function (json) {
+    const reader = (prop, value) => {
+      if (prop === "DATA_STD_DTM") {
+        return new Date(value.substring(0, value.length - 3));
+      }
+      return value;
+    };
+    const options = {
+      title: "요소수 판매 정보",
+      fields: [
+        { name: "OILSTATN_NM", label: "주유소 명" },
+        { name: "LOCPLC_ROADNM_ADDR", label: "도로명 주소" },
+        { name: "TELNO", label: "전화 번호" },
+        { name: "QTY", label: "수량", type: "number" },
+        { name: "LAT", label: "위도", type: "number" },
+        { name: "LOGT", label: "경도", type: "number" },
+        { name: "DATA_STD_DTM", type: "date", label: "데이터 입력 일시" },
+      ],
+    };
+    data = RealTouch.createListData("", options, { values: json, reader: reader })
+      .createView("view", { sort: "OILSTATN_NM" })
+      .slice("slice", [0, 15])
+      .sort(["OILSTATN_NM"])
+      .build();
+    callback();
+  })
+  .fail(function (xhr, status, error) {
+    alert(error + ": " + status);
+  });
 }
 
 function init() {

@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>RealTouch - Basic Sample</title>
+    <style>
+        html {
+            margin: 0px;
+        }
+
+        body {
+            margin: 0px;
+        }
+
+        #realtouch {
+            position: absolute;
+            overflow: scroll;
+            width: 100%;
+            height: 100%;
+            overflow: hidden;
+        }
+    </style>
+    <link href="./css/realtouch-style.css" rel="stylesheet">
+    <script type="text/javascript" src="./js/jquery-1.11.3.min.js"></script>
+    <script type="text/javascript" src="./js/realtouch/realtouch.0.9.11.min.js"></script>
+    <script type="text/javascript" src="./index.js"></script>
+    <script>
+        window.addEventListener('DOMContentLoaded', function () {
+            try {
+                init();
+            } catch (err) {
+                alert(err);
+                console.error(err);
+            }
+        });
+    </script>
+</head>
+
+<body>
+    <div id="realtouch"></div>
+</body>
+
+</html>

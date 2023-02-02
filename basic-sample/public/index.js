@@ -4,86 +4,70 @@ var list;
 const footer_template = {
   template: {
     layout: "hlinear",
-    children: [
-      {
+    children: [{
         value: "Σ",
-        style: { fontSize: "19px" },
-      },
-      {
-        space: "*",
-      },
-      {
+        style: { fontSize: "19px" }
+      },{
+        space: "*"
+      },{ 
         value: "${@row_count} 개",
-        style: { fontWeight: "bold", color: "#555" },
-      },
-      {
+        style: { fontWeight: "bold", color: "#555" }
+      },{
         space: 5,
         visible: "${checkVisible}",
-      },
-      {
+      },{
         value: "${@check_count}",
         visible: "${checkVisible}",
         style: { color: "red" },
-      },
-      {
+      },{
         value: " checked.",
         visible: "${checkVisible}",
-      },
-    ],
+    }],
   },
 };
 const row_template = {
   template: {
     layout: "vlinear",
-    children: [
-      {
+    children: [{
+      layout: "hlinear",
+      width: "100%",
+      children: [{
+          field: "OILSTATN_NM",
+          left: 0,
+          style: { fontSize: "17px", fontWeight: "bold", color: "#555" },
+          tag: "name",
+        },{
+          space: "*",
+        },{
+          value: "수량 :",
+          style: {
+            fontSize: "14px",
+            color: "#333",
+          },
+        },{
+          field: "QTY",
+          left: 0,
+          style: { fontSize: "14px", color: "#555" },
+          tag: "qty",
+          styleCallback: (ctx) => {
+            if (ctx.value < 2000)
+              return {
+                color: "red",
+              };
+          },
+      }],
+      },{
         layout: "hlinear",
         width: "100%",
-        children: [
-          {
-            field: "OILSTATN_NM",
-            left: 0,
-            style: { fontSize: "17px", fontWeight: "bold", color: "#555" },
-            tag: "name",
+        children: [{
+          field: "LOCPLC_ROADNM_ADDR",
+          left: 0,
+          style: { fontSize: "14px", color: "#777" },
+          tag: "addr",
+          renderer: {
+            wrap: true,
           },
-          {
-            space: "*",
-          },
-          {
-            value: "수량 :",
-            style: {
-              fontSize: "14px",
-              color: "#333",
-            },
-          },
-          {
-            field: "QTY",
-            left: 0,
-            style: { fontSize: "14px", color: "#555" },
-            tag: "qty",
-            styleCallback: (ctx) => {
-              if (ctx.value < 2000)
-                return {
-                  color: "red",
-                };
-            },
-          },
-        ],
-      },
-      {
-        layout: "hlinear",
-        width: "100%",
-        children: [
-          {
-            field: "LOCPLC_ROADNM_ADDR",
-            left: 0,
-            style: { fontSize: "14px", color: "#777" },
-            tag: "addr",
-            renderer: {
-              wrap: true,
-            },
-          },
-        ],
+        }],
       },
     ],
   },
@@ -125,80 +109,73 @@ const config = {
         style: { fontSize: "19px", color: "#777" },
       },
     },
-
     scrollBar: true,
     scrollIndicator: {
       position: "top",
     },
-
     header: {
       visible: true,
       clickAction: "field",
       caption: "요소수 구입처",
       captionAlign: "center",
-      buttons: [
-        {
-          name: "home",
-          position: "head",
-          label: "처음",
-          onClick: (args) => {
-            location.href = "./index.html";
-          },
+      buttons: [{
+        name: "home",
+        position: "head",
+        label: "처음",
+        onClick: (args) => {
+          location.href = "./index.html";
         },
-        {
-          name: "edit",
-          label: "편집",
-          style: {
-            color: "blue",
-          },
-          onClick: (args) => {
-            const button = args.button;
-
-            if (button.label === "완료") {
-              list.options.rowBar.display = "order";
-              list.checkAll(false);
-
-              button.label = "편집";
-              list.options.header.setButton(button);
-
-              list.options.footer.hideButton("delete");
-              list.state = null;
-            } else {
-              list.options.rowBar.display = "check";
-              list.checkAll(false);
-              list.options.rowBar.visible = true;
-
-              button.label = "완료";
-              list.options.header.setButton(button);
-
-              list.options.footer.showButton("delete");
-              list.state = "edit";
-            }
-          },
+      },{
+        name: "edit",
+        label: "편집",
+        style: {
+          color: "blue",
         },
-      ],
+        onClick: (args) => {
+          const button = args.button;
+
+          if (button.label === "완료") {
+            list.options.rowBar.display = "order";
+            list.checkAll(false);
+
+            button.label = "편집";
+            list.options.header.setButton(button);
+
+            list.options.footer.hideButton("delete");
+            list.state = null;
+          } else {
+            list.options.rowBar.display = "check";
+            list.checkAll(false);
+            list.options.rowBar.visible = true;
+
+            button.label = "완료";
+            list.options.header.setButton(button);
+
+            list.options.footer.showButton("delete");
+            list.state = "edit";
+          }
+        },
+      }],
     },
     footer: {
       visible: true,
       template: "footer",
-      buttons: [
-        {
-          name: "delete",
-          label: "삭제",
-          position: "tail",
-          visible: false,
-          enabled: () => {
-            return list.checkedRowCount > 0;
-          },
-          onClick: (args) => {
-            const rows = list.getCheckedRows();
-            data.deleteRows(rows);
-          },
-          style: {
-            color: "red",
-          },
+      buttons: [{
+        name: "delete",
+        label: "삭제",
+        position: "tail",
+        visible: false,
+        enabled: () => {
+          return list.checkedRowCount > 0;
         },
-      ],
+        onClick: (args) => {
+          const rows = list.getCheckedRows();
+          data.deleteRows(rows);
+        },
+        style: {
+          color: "red",
+        },
+      }],
       layoutParams: {
         checkVisible: (args) => {
           return list.state === "edit";

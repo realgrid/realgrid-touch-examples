@@ -15,3 +15,4 @@ $ npm install
 ```
 $ npm run start
 ```
+![basic-sample](./public/basic-sample.png)

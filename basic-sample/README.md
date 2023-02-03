@@ -15,7 +15,7 @@ $ npm install
 ```
 $ npm run start
 ```
-![basic-sample]()
+
 <p align="center">
   <img width="313" height="676" src="./public/basic-sample.png">
 </p>

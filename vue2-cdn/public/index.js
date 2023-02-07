@@ -8,24 +8,26 @@ new Vue({
     return {};
   },
   created(){
-    const fields = this.fields = [{
-      name: 'OILSTATN_NM'
-    }, {
-      name: 'LOCPLC_ROADNM_ADDR'
-    }, {
-      name: 'TELNO'
-    }, {
-      name: 'QTY',
-      type: 'number'
-    }, {
-      name: 'LAT',
-      type: 'number'
-    }, {
-      name: 'LOGT',
-      type: 'number'
-    }, {
-      name: 'DATA_STD_DTM'
-    }];
+    this.fields = {
+      fields: [{
+        name: 'OILSTATN_NM'
+      }, {
+        name: 'LOCPLC_ROADNM_ADDR'
+      }, {
+        name: 'TELNO'
+      }, {
+        name: 'QTY',
+        type: 'number'
+      }, {
+        name: 'LAT',
+        type: 'number'
+      }, {
+        name: 'LOGT',
+        type: 'number'
+      }, {
+        name: 'DATA_STD_DTM'
+      }]
+    }
 
     this.options = {
       title: "요소수 판매 정보",
@@ -179,9 +181,8 @@ new Vue({
     },
   },
   mounted(){
-    const fields = this.fields;
 
-    this.data = RealTouch.createListData("", {fields})
+    this.data = RealTouch.createListData("", this.fields)
       .createView('view')
       .sort(['OILSTATN_NM'])
       .build();

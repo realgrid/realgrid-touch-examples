@@ -3,7 +3,7 @@
 </template>
 
 <script>
-import RealTouch from "../realgridtouch/realtouch.0.9.11.min.js"
+import RealTouch from "../realgrid-touch/realgrid-touch.0.9.11.min.js"
 import { yososu } from "./yososu.js";
 import  {row_template ,footer_template } from "./templates.js";
 
@@ -205,7 +205,7 @@ export default {
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
-@import url('../realgridtouch/realtouch-style.css');
+@import url('../realgrid-touch/realgrid-touch-style.css');
 #realtouch{
   position: absolute;
   overflow: scroll;

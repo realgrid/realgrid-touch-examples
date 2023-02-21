@@ -26,7 +26,7 @@
       "no-template-curly-in-string": "off",
       "no-unused-vars": "off"
     },
-    "ignorePatterns": ["realtouch.0.9.11.min.js"]                    
+    "ignorePatterns": ["realgrid-touch.0.9.11.min.js"]                    
   },
   "browserslist": {
     "production": [

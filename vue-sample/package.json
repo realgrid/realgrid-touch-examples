@@ -32,7 +32,7 @@
     "parserOptions": {
       "parser": "@babel/eslint-parser"
     },
-    "ignorePatterns": ["realtouch.0.9.11.min.js"],
+    "ignorePatterns": ["realgrid-touch.0.9.11.min.js"],
     "rules": {
       "no-unused-vars": "off"
     }

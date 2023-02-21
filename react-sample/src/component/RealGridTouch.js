@@ -1,7 +1,7 @@
 import { footer_template, row_template } from "./templates";
 import { useEffect, useState } from "react";
-import styles from "../realgridtouch/realtouch-style.css";
-import RealTouch from "../realgridtouch/realtouch.0.9.11.min.js";
+import styles from "../realgrid-touch/realgrid-touch-style.css";
+import RealTouch from "../realgrid-touch/realgrid-touch.0.9.11.min.js";
 import { yososu } from "./yososu.js";
 
 const RealGridTouch = ({ domName }) => {

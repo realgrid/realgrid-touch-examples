@@ -252,8 +252,6 @@ export class RealgridComponent implements OnInit {
       list.data = data;
     }
     init();
-    console.log(list)
   }
 }
 
-const loadData = function () {};

@@ -2,7 +2,7 @@ import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 
 import { AppComponent } from './app.component';
-import { RealgridComponent } from './realgrid/realgrid-touch.component';
+import { RealgridComponent } from './realgrid-touch/realgrid-touch.component';
 
 @NgModule({
   declarations: [

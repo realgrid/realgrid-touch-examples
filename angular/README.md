@@ -7,8 +7,8 @@
 ## 설치
 
 ```
-$ git clone 
-$ cd realgrid-touch-examples/
+$ git clone https://github.com/realgrid/realgrid-touch-examples/tree/main/angular
+$ cd realgrid-touch-examples/angular
 $ npm install
 ```
 

@@ -5,7 +5,7 @@ import RealTouch from "realgrid-touch";
 import { yososu } from "./yososu.js";
 
 const RealGridTouch = () => {
-    const [data, setData] = useState(null);
+    const isMounted = useRef(false);
     const [list, setList] = useState(null);
     const touchRef = useRef(null);
     const fields = {
@@ -156,23 +156,24 @@ const RealGridTouch = () => {
 
     useEffect(() => {
         console.log("mounted");
-        console.log(touchRef.current)
-        const listData = RealTouch.createListData("", fields, { values: yososu })
-            .createView("view")
-            .build();
-        if (listData && touchRef.current) {
-            const listControl = RealTouch.createListControl(document, touchRef.current);
-            listControl.setConfig(config);
-            listControl.data = listData;
-            setList(listControl);
+        if(!isMounted.current){
+          const listData = RealTouch.createListData("", fields, { values: yososu })
+              .createView("view")
+              .build();
+          if (listData) {
+              const listControl = RealTouch.createListControl(document, touchRef.current);
+              listControl.setConfig(config);
+              listControl.data = listData;
+              setList(listControl);
+          }
+          isMounted.current = true;
         }
-        setData(listData);
-
         return () => {
-            console.log("unmounted")
-            touchRef.current.childNodes.forEach(child => child.remove());
-            if (data) data.destroy();
-            if (list) list.destroy();
+            console.log("unmounted");
+            if (list) {
+                isMounted.current = true;
+                list.destroy();
+            }
         };
         // eslint-disable-next-line
     }, []);

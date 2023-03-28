@@ -3,7 +3,7 @@
 </template>
 
 <script>
-import RealTouch from "../realgrid-touch/realgrid-touch.0.9.11.min.js"
+import RealGridTouch from "realgrid-touch"
 import { yososu } from "./yososu.js";
 import  {row_template ,footer_template } from "./templates.js";
 
@@ -189,13 +189,13 @@ export default {
     },
   },
   mounted(){
-    this.data = RealTouch.createListData("",this.fields)
+    this.data = RealGridTouch.createListData("",this.fields)
       .createView('view')
       .sort(['OILSTATN_NM'])
       .build();
 
     if(this.data){
-      this.list = RealTouch.createListControl(document, this.touchName);
+      this.list = RealGridTouch.createListControl(document, "realtouch");
       this.list.setConfig(this.config);
       this.list.data = this.data;
     }
@@ -205,7 +205,7 @@ export default {
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
-@import url('../realgrid-touch/realgrid-touch-style.css');
+@import url('realgrid-touch/dist/realgrid-touch-style.css');
 #realtouch{
   position: absolute;
   overflow: scroll;

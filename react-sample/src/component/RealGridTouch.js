@@ -155,7 +155,6 @@ const RealGridTouch = () => {
     };
 
     useEffect(() => {
-        console.log("mounted");
         if(!isMounted.current){
           const listData = RealTouch.createListData("", fields, { values: yososu })
               .createView("view")
@@ -169,9 +168,7 @@ const RealGridTouch = () => {
           isMounted.current = true;
         }
         return () => {
-            console.log("unmounted");
             if (list) {
-                isMounted.current = true;
                 list.destroy();
             }
         };

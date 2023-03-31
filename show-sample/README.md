@@ -1,10 +1,10 @@
-# RealGrid Touch Basic 예제
-
+# RealGrid Touch Show 예제
+RealGrid Touch 설명회에서 사용된 예제
 ## 설치
 
 ```
 $ git clone https://github.com/realgrid/realgrid-touch-examples.git
-$ cd realgrid-touch-examples/basic-sample
+$ cd realgrid-touch-examples/show-sample
 $ npm install
 ```
 
@@ -15,7 +15,3 @@ $ npm install
 ```
 $ npm run start
 ```
-
-<p align="center">
-  <img width="313" height="676" src="./public/basic-sample.png">
-</p>

@@ -1,0 +1,19 @@
+.letter-red {
+    font-weight: bold;
+    color: #f00;
+}
+.shape-red {
+    fill: red;
+}
+.shape-blue{
+    fill: #0097a7
+}
+.shape-orange{
+    fill: #ff7043
+}
+.red {
+	color:red 
+}
+.blue {
+	color:blue 
+}

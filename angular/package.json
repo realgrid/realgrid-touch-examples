@@ -51,7 +51,7 @@
       "node": true
     },
     "ignorePatterns": [
-      "realgrid-touch.0.9.11.min.js"
+      "realgrid-touch.0.9.15.min.js"
     ],
     "rules": {
       "no-unused-vars": "off"

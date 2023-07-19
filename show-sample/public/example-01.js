@@ -1256,7 +1256,7 @@ function createListData(dataurl, callback) {
 }
 
 function init() {
-    createListData("../data/sample-01.json", () => {
+    createListData("./data/sample-01.json", () => {
         list = RealTouch.createListControl(document, "realtouch");
         list.setConfig(config);
         list.data = data;

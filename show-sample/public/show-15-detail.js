@@ -168,7 +168,7 @@ function init() {
     };
 
     $.ajax({
-        url: "../data/gyounggi-tuksanpum.json",
+        url: "./data/gyounggi-tuksanpum.json",
         method: "GET",
         dataType: "json",
     }).done((json) => {

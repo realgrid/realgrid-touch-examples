@@ -270,7 +270,7 @@ function init() {
     // RealTouch.setBounding(true);
     // console.log('RealTouch v' + RealTouch.getVersion());
 
-    createListData('../data/yososu.json', () => {
+    createListData('./data/yososu.json', () => {
         list = RealTouch.createListControl(document, 'realtouch');
         list.setConfig(config);
         list.data = data;

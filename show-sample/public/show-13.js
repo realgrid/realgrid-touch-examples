@@ -107,13 +107,13 @@ function init() {
     },
   };
   $.ajax({
-    url: '../data/gyounggido.json',
+    url: './data/gyounggido.json',
     method: 'GET',
     dataType: 'json',
   }).done((masterData) => {
     master = RealTouch.createListData('master', null, masterData);
     $.ajax({
-      url: '../data/gyounggi-tuksanpum.json',
+      url: './data/gyounggi-tuksanpum.json',
       method: 'GET',
       dataType: 'json',
     }).done((detailData) => {

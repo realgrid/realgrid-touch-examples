@@ -4,7 +4,7 @@ function init() {
     // Json Load
     const jsonLoad = () => {
         $.ajax({
-            url: "../data/sample-01.json",
+            url: "./data/sample-01.json",
             method: "GET",
             dataType: "json",
         }).done((json) => {
@@ -18,7 +18,7 @@ function init() {
     // CSV Load
     const csvLoad = () => {
         $.ajax({
-            url: "../data/cctv-s.csv",
+            url: "./data/cctv-s.csv",
             method: "GET",
             dataType: "text",
         }).done((csv) => {
@@ -107,7 +107,7 @@ function init() {
     };
 
     $.ajax({
-        url: "../data/cctv-s.csv",
+        url: "./data/cctv-s.csv",
         method: "GET",
         dataType: "text",
     }).done((csv) => {

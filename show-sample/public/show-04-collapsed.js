@@ -235,7 +235,7 @@ function init() {
   };
 
   $.ajax({
-    url: '../data/sample-01.json',
+    url: './data/sample-01.json',
     method: 'GET',
     dataType: 'json',
   }).done((json) => {

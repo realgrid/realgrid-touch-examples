@@ -109,7 +109,7 @@ const config = {
         style: { fontSize: "19px", color: "#777" },
       },
     },
-    scrollBar: true,
+    scrollBar: !true,
     scrollIndicator: {
       position: "top",
     },
@@ -221,9 +221,10 @@ function createListData(dataurl, callback) {
       ],
     };
     data = RealTouch.createListData("", options, { values: json, reader: reader })
-      .createView("view", { sort: "OILSTATN_NM" })
+      .createView("view")
+      // .createView("view", { sort: "OILSTATN_NM" })
       .slice("slice", [0, 15])
-      .sort(["OILSTATN_NM"])
+      // .sort(["OILSTATN_NM"])
       .build();
     callback();
   })

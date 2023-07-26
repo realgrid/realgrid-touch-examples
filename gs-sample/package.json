@@ -1,0 +1,13 @@
+{
+  "name": "gs-sample",
+  "version": "1.0.0",
+  "description": "",
+  "dependencies": {
+  },
+  "devDependencies": {},
+  "scripts": {
+    "start": "npx http-server"
+  },
+  "author": "benny-yoo",
+  "license": "WooriTech Inc."
+}

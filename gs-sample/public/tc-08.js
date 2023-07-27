@@ -61,20 +61,9 @@ const config = {
     footer: { // 푸터 설정 모델
       template: "footer" // 푸터 레이아웃 생성에 사용된느 템플릿 이름 등록
     },
-    header: {// header 설정 모델
+    searchBar: { // 검색bar 설정 모델
       visible: true, // 표시 여부 설정
-      caption: "데이터 필터", // header 캡션 설정
-      buttons: [{ // header섹션에 버튼 추가 설정
-        label: "필터적용", // 버튼에 표시되는 텍스트 설정
-        onClick: ({control}) => { // 버튼 클릭시 호출되는 콜백 등록
-          control.data.enableFilter('filter1', true, true); // 필터를 적용
-        }
-      }, {
-        label: "필터해제",
-        onClick: ({control}) => {
-          control.data.enableFilter('filter1', false, true); // 필터적용을 해제
-        }
-      }]
+      optionsVisible: false // options 버튼 표시 여부
     }
   },
 };
@@ -85,14 +74,7 @@ async function createListData(dataurl, callback) {
     const json = await res.json();
 
     data = RealTouch.createListData("", {}, { values: json })
-      .createView('dataview',  { 
-        filter: { // 필터 등록
-          name: 'filter1', // 필터셋 이름.
-          label: '남은수량 2500개 이상', // 필터 패널 등에서 필터를 표시하는 이름설정
-          enabled: false, // 필터 활성화 여부.
-          filter: (row, values) => +values['QTY'] > 2500 // 필터 콜백 지정
-        }
-    });
+      .createView('dataview',  {});
     callback && callback(data);
   } catch (error) {
     console.error(error);

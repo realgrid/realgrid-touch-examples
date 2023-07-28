@@ -34,7 +34,15 @@ const row_template = {
         // 수평 레이아웃 Child #3
         {
           field: "QTY", // 요소수 수량
-          style: { fontSize: "14px", color: "#555" },
+          style: { fontSize: "14px", color: "#555", fontWeight: 500 },
+          renderer: {
+            // 동적 스타일링이 가능한 스타일 리턴 콜백
+            styleCallback: ({value}) => {
+              return { 
+                color: value >= 3000 ? 'limegreen' : 'orange'
+              };
+            }
+          }
         }
       ],
       },

@@ -12,38 +12,41 @@ const footer_template = {
         }
       }
     ],
-  },
+  }
 };
 const row_template = {
   template: {
-    layout: "vlinear", // 수직 레이아웃 설정
+    layout: "vlinear",
     children: [{
-      // 수직 레이아웃 Child #1
-      layout: "hlinear", // 수평 레이아웃 설정
+      layout: "hlinear",
       width: "100%",
       children: [
-        // 수평 레이아웃 Child #1
         {
-          field: "OILSTATN_NM", // 데이터 필드명을 설정하여 바인딩 한다.; 주요소 이름
+          field: "OILSTATN_NM", 
           style: { fontSize: "17px", fontWeight: "bold", color: "#555" },
         },
-        // 수평 레이아웃 Child #2
         {
           width: "*"
         },
-        // 수평 레이아웃 Child #3
         {
-          field: "QTY", // 요소수 수량
+          field: "QTY",
           style: { fontSize: "14px", color: "#555" },
         }
       ],
       },
-      // 수직 레이아웃 Child #2
       {
-        field: "LOCPLC_ROADNM_ADDR", // 주요소 주소
+        field: "LOCPLC_ROADNM_ADDR",
         style: { fontSize: "14px", color: "#777" },
       },
     ],
+  },
+  rowStyle: {
+    created: {
+      backgroundColor: 'lightgreen'
+    },
+    updated: {
+      backgroundColor: 'yellow'
+    },
   }
 };
 
@@ -86,4 +89,18 @@ async function init() {
   list = RealTouch.createListControl(document, "realtouch");
   list.setConfig(config);
   list.data = data;
+
+  // 데이터 행 추가
+  data.insertRow(0, {
+    "OILSTATN_NM": "송파구청",
+    "LOCPLC_ROADNM_ADDR": "서울 송파구 올림픽로 326",
+    "TELNO": "02-2147-2000",
+    "QTY": "100",
+    "LAT": "37.5146107",
+    "LOGT": "127.1060852",
+    "DATA_STD_DTM": "2023-07-27  09:00:00 AM"
+  });
+
+  // 데이터 값 수정
+  data.updateValue(1, 'QTY', 0);
 }

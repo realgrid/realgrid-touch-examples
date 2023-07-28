@@ -17,26 +17,32 @@ const footer_template = {
 const row_template = {
   template: {
     layout: "vlinear", // 수직 레이아웃 설정
-    children: [{
-      // 수직 레이아웃 Child #1
-      layout: "hlinear", // 수평 레이아웃 설정
-      width: "100%",
-      children: [
-        // 수평 레이아웃 Child #1
-        {
-          field: "OILSTATN_NM", // 데이터 필드명을 설정하여 바인딩 한다.; 주요소 이름
-          style: { fontSize: "17px", fontWeight: "bold", color: "#555" },
-        },
-        // 수평 레이아웃 Child #2
-        {
-          width: "*"
-        },
-        // 수평 레이아웃 Child #3
-        {
-          field: "QTY", // 요소수 수량
-          style: { fontSize: "14px", color: "#555" },
-        }
-      ],
+    children: [
+      {
+        // 수직 레이아웃 Child #1
+        layout: "hlinear", // 수평 레이아웃 설정
+        width: "100%",
+        children: [
+          // 수평 레이아웃 Child #1
+          {
+            field: "OILSTATN_NM", // 데이터 필드명을 설정하여 바인딩 한다.; 주요소 이름
+            style: { fontSize: "17px", fontWeight: "bold", color: "#555" },
+          },
+          // 수평 레이아웃 Child #2
+          {
+            width: "*"
+          },
+          // 수평 레이아웃 Child #3
+          {
+            field: "QTY", // 요소수 수량
+            style: { fontSize: "14px", color: "#555", fontWeight: 500 },
+            renderer: {
+              style: {
+                color: "${qtyColor}"
+              }
+            }
+          }
+        ]
       },
       // 수직 레이아웃 Child #2
       {
@@ -44,6 +50,11 @@ const row_template = {
         style: { fontSize: "14px", color: "#777" },
       },
     ],
+  },
+  params: {
+    qtyColor: ({value}) => {
+      return value >= 3000 ? 'limegreen' : 'orange'
+    }
   }
 };
 

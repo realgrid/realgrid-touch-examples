@@ -95,7 +95,7 @@ async function createListData(dataurl, callback) {
 }
 
 function init() {
-  createListData("./data/group.json", (data) => {
+  createListData("./data/gyounggi-tuksanpum.json", (data) => {
     list = RealTouch.createListControl(document, "realtouch");
     list.setConfig(config);
     list.data = data;

@@ -30,11 +30,6 @@ const row_template = {
         }],
       },
     ],
-  },
-  rowStyle: {
-    updated: {
-      backgroundColor: "blue"
-    }
   }
 };
 
@@ -57,6 +52,8 @@ const edit_template = {
           editor: {
             type: "number",
             placeholder: "보유 수량",
+            minValue: 0,
+            maxValue: 9999
           },
           style: { fontSize: "14px", color: "#555" },
         }],

@@ -90,7 +90,7 @@ async function createListData(dataurl, callback) {
           name: 'filter1', // 필터셋 이름.
           label: '남은수량 2500개 이상', // 필터 패널 등에서 필터를 표시하는 이름설정
           enabled: false, // 필터 활성화 여부.
-          filter: (row, values) => +values['QTY'] > 2500 // 필터 콜백 지정
+          filter: (row, values) => +values['QTY'] >= 2500 // 필터 콜백 지정
         }
     });
     callback && callback(data);

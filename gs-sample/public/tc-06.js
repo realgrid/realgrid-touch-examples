@@ -59,7 +59,7 @@ const config = {
       display: "order", // 행 앞에 번호를 표기하는 설정
     },
     footer: { // 푸터 설정 모델
-      template: "footer" // 푸터 레이아웃 생성에 사용된느 템플릿 이름 등록
+      template: "footer" // 푸터 레이아웃 생성에 사용되는 템플릿 이름 등록
     },
     header: {// header 설정 모델
       visible: true, // 표시 여부 설정

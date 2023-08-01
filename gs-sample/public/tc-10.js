@@ -106,7 +106,7 @@ const config = {
     },
     footer: {
       // 푸터 설정 모델
-      template: "footer", // 푸터 레이아웃 생성에 사용된느 템플릿 이름 등록
+      template: "footer", // 푸터 레이아웃 생성에 사용되는 템플릿 이름 등록
     },
   },
 };

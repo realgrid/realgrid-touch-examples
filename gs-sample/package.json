@@ -1,10 +1,7 @@
 {
   "name": "gs-sample",
-  "version": "1.0.0",
+  "version": "1.0",
   "description": "",
-  "dependencies": {
-  },
-  "devDependencies": {},
   "scripts": {
     "start": "npx http-server",
     "dev": "npx http-server -c-1"

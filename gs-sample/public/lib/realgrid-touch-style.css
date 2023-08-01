@@ -934,10 +934,18 @@
     color: #333;
 }
 .rtc-menu-group-expander::before {
-    content: '▼';
+    content: "";
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+    background-image: url("data:image/svg+xml;base64,CjxzdmcgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB2aWV3Qm94PSIwIDAgMjQgMjQiIHN0cm9rZS13aWR0aD0iMiIgc3Ryb2tlPSIjMjIyIiBmaWxsPSJub25lIj4KICA8cGF0aCBkPSJNNiA5bDYgNmw2IC02IiAvPgo8L3N2Zz4K");
 }
 .rtc-menu-group-expander[data-expand='0']::before {
-    content: '▲';
+    content: ""; 
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+    background-image: url("data:image/svg+xml;base64,CjxzdmcgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB2aWV3Qm94PSIwIDAgMjQgMjQiIHN0cm9rZS13aWR0aD0iMiIgc3Ryb2tlPSIjMjIyIiBmaWxsPSJub25lIj4KICA8cGF0aCBkPSJNOSA2bDYgNmwtNiA2IiAvPgo8L3N2Zz4K");
 }
 
 .rtc-toast {

@@ -57,6 +57,7 @@ const edit_template = {
           editor: {
             type: "number",
             placeholder: "보유 수량",
+            maxValue: 2000,
           },
           style: { fontSize: "14px", color: "#555" },
         }],
@@ -121,7 +122,7 @@ const config = {
         }
       }]
     },
-    footer: false // footer 표시 여부 설정
+    footer: !false // footer 표시 여부 설정
   },
 };
 

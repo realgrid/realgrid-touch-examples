@@ -6,7 +6,8 @@
   },
   "devDependencies": {},
   "scripts": {
-    "start": "npx http-server"
+    "start": "npx http-server",
+    "dev": "npx http-server -c-1"
   },
   "author": "benny-yoo",
   "license": "WooriTech Inc."

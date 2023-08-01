@@ -26,6 +26,9 @@ const row_template = {
         {
           field: "OILSTATN_NM", // 데이터 필드명을 설정하여 바인딩 한다.; 주요소 이름
           style: { fontSize: "17px", fontWeight: "bold", color: "#555" },
+          rendererStyles: {
+            color: 'red'
+          }
         },
         // 수평 레이아웃 Child #2
         {

@@ -50,7 +50,7 @@ const row_template = {
                   color: '#777'
               }
           }, {
-              space: '*'
+              width: "*"
           }, {
               field: 'TELNO',
               style: {

@@ -13,7 +13,7 @@ const row_template = {
           field: "OILSTATN_NM",
           style: { fontSize: "17px", fontWeight: "bold", color: "#555" },
         }, {
-          space: "*",
+          width: "*"
         }, {
           field: "QTY",
           style: { fontSize: "14px", color: "#555" },
@@ -46,7 +46,7 @@ const edit_template = {
           },
           style: { fontSize: "17px", fontWeight: "bold", color: "#555" },
         }, {
-          space: "*",
+          width: "*"
         }, {
           field: "QTY",
           editor: {

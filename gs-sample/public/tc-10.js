@@ -72,7 +72,7 @@ const detail_template = {
             },
           },
           {
-            space: "*",
+            width: "*"
           },
           {
             field: "TELNO",

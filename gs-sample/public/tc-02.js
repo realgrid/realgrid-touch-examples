@@ -5,7 +5,7 @@ const footer_template = {
   template: {
     layout: "hlinear", // 수평 레이아웃 설정
     children: [{ 
-        value: "%{@row_count} 개", // 데이터 행 수를 갖는 stock param
+        value: "${@row_count} 개", // 데이터 행 수를 갖는 stock param
         style: { fontWeight: "bold", color: "#555" }, // CSS 스타일 설정.
         renderer: { // 텍스트 렌더러가 기본 렌더러. 생략 가능.
           type: 'text',

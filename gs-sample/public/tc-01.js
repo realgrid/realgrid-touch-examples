@@ -1,6 +1,7 @@
 var data; // RtListData를 담을 변수. debug에 용이하도록 전역 변수로 설정함.
 var list; // RtListControl을 담을 변수. debug에 용이하도록 전역 변수로 설정함.
 
+// 리스트 푸터 템플릿
 const footer_template = {
   template: {
     layout: "hlinear", // 수평 레이아웃 설정
@@ -14,6 +15,7 @@ const footer_template = {
     ],
   },
 };
+// 데이터 로우 템플릿
 const row_template = {
   template: {
     layout: "vlinear", // 수직 레이아웃 설정
@@ -58,14 +60,14 @@ const config = {
     }
   },
   options: {
-    row: {
+    row: { // 데이터 로우 영역 모델 설정.
       template: 'row', // props에서 등록한 템플릿 키 설정. row_template이 사용된.
     },
     rowBar: {
       visible: true, // rowBar 표시
       display: "order", // 순번으로 표현
     },
-    footer: {
+    footer: { // 리스트 푸터 영역 모델 설정.
       template: 'footer', // props에서 등록한 템플릿 키 설정. footer_template이 사용됨.
     }
   },

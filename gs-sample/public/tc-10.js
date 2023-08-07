@@ -136,7 +136,7 @@ async function createListData(dataurls) {
 }
 
 async function init() {
-  data = await createListData(["../data/gyounggi.json", "../data/gyounggi-tuksanpum.json"]);
+  await createListData(["../data/gyounggi.json", "../data/gyounggi-tuksanpum.json"]);
   // id가 'realtouch'인 Dom에 리스트 뷰를 생성하고 RtListControl을 리턴.
   list = RealTouch.createListControl(document, "realtouch");
   list.setConfig(config);

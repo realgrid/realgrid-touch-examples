@@ -84,12 +84,14 @@ const config = {
 };
 
 
-async function createListData(dataurl, callback) {
+
+async function createListData(dataurl) {
   try {
     const res = await fetch(dataurl);
     const json = await res.json();
-    return RealTouch.createListData("", {}, { values: json }) 
-      .createView("view", {}) 
+
+    return RealTouch.createListData("", {}, { values: json })
+      .createView('dataview',  {})
       .sort(['SIGUN_NM']) // 그룹핑 기준으로 정렬
       .build();
   } catch (error) {

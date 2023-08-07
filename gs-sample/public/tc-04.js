@@ -120,13 +120,12 @@ const config = {
   },
 };
 
-async function createListData(dataurl, callback) {
+async function createListData(dataurl) {
   try {
     const res = await fetch(dataurl);
     const json = await res.json();
     return RealTouch.createListData("", {}, { values: json }) 
-      .createEditableView("view", {}) 
-      .build();
+
   } catch (error) {
     console.error(error);
   }

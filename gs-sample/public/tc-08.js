@@ -68,23 +68,20 @@ const config = {
   },
 };
 
+
 async function createListData(dataurl, callback) {
   try {
     const res = await fetch(dataurl);
     const json = await res.json();
-
-    data = RealTouch.createListData("", {}, { values: json })
-      .createView('dataview',  {});
-    callback && callback(data);
+    return RealTouch.createListData("", {}, { values: json })
   } catch (error) {
     console.error(error);
   }
 }
 
-function init() {
-  createListData("./data/yososu.json", (data) => {
-    list = RealTouch.createListControl(document, "realtouch");
-    list.setConfig(config);
-    list.data = data;
-  });
+async function init() {
+  data = await createListData("./data/yososu.json");
+  list = RealTouch.createListControl(document, "realtouch");
+  list.setConfig(config);
+  list.data = data;
 }

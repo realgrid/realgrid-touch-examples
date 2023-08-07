@@ -1,4 +1,4 @@
-var master, detail, data;
+var data;
 var list;
 
 const footer_template = {
@@ -111,44 +111,31 @@ const config = {
   },
 };
 
-async function createListData(dataurls, callback) {
-  fetch(dataurls[0])
-    .then((response) => response.json())
-    .then((json) => {
-      master = RealTouch.createListData("master", null, json) // 마스터 listData 생성
-        .createView("master")
-        .sort(["SIGUN_NM"], true);
-      fetch(dataurls[1])
-        .then((response) => response.json())
-        .then((json) => {
-          detail = RealTouch.createListData("detail", null, json) // 디테일 listData 생성
-            .createView("detail")
-            .sort(["SIGUN_NM"], true);
+async function createListData(dataurls) {
+  const masterRes = await fetch(dataurls[0]);
+  let json = await masterRes.json();
+  const master = RealTouch.createListData("master", null, json) // 마스터 listData 생성
+    .createView("master")
+    .sort(["SIGUN_NM"], true);
+  
+  const detailRes = await fetch(dataurls[1]);
+  json = await detailRes.json();
+  const detail = RealTouch.createListData("detail", null, json) // 디테일 listData 생성
+    .createView("detail")
+    .sort(["SIGUN_NM"], true);
 
-          data = RealTouch.createDataLink("main", master, { // 다중 데이터 뷰 생성
-            data: detail,
-            keyFields: ["SIGUN_NM"],
-          });
-
-          callback && callback(data);
-        })
-        .catch((error) => {
-          alert(error);
-        });
-    })
-    .catch((error) => {
-      alert(error);
-    });
+  return RealTouch.createDataLink("main", master, { // 다중 데이터 뷰 생성
+    data: detail,
+    keyFields: ["SIGUN_NM"],
+  });
 }
 
-function init() {
-  createListData(
-    ["../data/gyounggi.json", "../data/gyounggi-tuksanpum.json"],
-    () => {
-      list = RealTouch.createListControl(document, "realtouch");
-      list.setConfig(config);
-      list.data = data;
-      list.dataGroupBy();
-    }
+async function init() {
+  data = await createListData(
+    ["../data/gyounggi.json", "../data/gyounggi-tuksanpum.json"]
   );
+  list = RealTouch.createListControl(document, "realtouch");
+  list.setConfig(config);
+  list.data = data;
+  list.dataGroupBy();
 }

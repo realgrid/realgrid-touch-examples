@@ -83,26 +83,24 @@ const config = {
   },
 };
 
-async function createListData(dataurl, callback) {
+async function createListData(dataurl) {
   try {
     const res = await fetch(dataurl);
     const json = await res.json();
 
-    data = RealTouch.createListData("", {}, { values: json })
+    return RealTouch.createListData("", {}, { values: json })
       .createView('dataview',  {})
       .sort(['SIGUN_NM']) // 그룹핑 기준으로 정렬
       .build();
-    callback && callback(data);
   } catch (error) {
     console.error(error);
   }
 }
 
-function init() {
-  createListData("./data/gyounggi-tuksanpum.json", (data) => {
-    list = RealTouch.createListControl(document, "realtouch");
-    list.setConfig(config);
-    list.data = data;
-    list.rowGroupBy(['SIGUN_NM']); // '시군'필드를 기준으로 행그룹핑 설정
-  });
+async function init() {
+  data = await createListData("./data/gyounggi-tuksanpum.json");
+  list = RealTouch.createListControl(document, "realtouch");
+  list.setConfig(config);
+  list.data = data;
+  list.rowGroupBy(['SIGUN_NM']); // '시군'필드를 기준으로 행그룹핑 설정
 }

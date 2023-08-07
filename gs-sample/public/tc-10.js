@@ -116,16 +116,18 @@ async function createListData(dataurls) {
   try {
     const responseMaster = await fetch(dataurls[0]);
     const jsonMaster = await responseMaster.json();
+    // master 생성
     master = RealTouch.createListData("master", null, jsonMaster)
       .createView("master")
       .sort(["SIGUN_NM"], true);
 
     const responseDetail = await fetch(dataurls[1]);
     const jsonDetail = await responseDetail.json();
+    //detail 생성
     detail = RealTouch.createListData("detail", null, jsonDetail)
       .createView("detail")
       .sort(["SIGUN_NM"], true);
-
+    // DataLinkView생성
     return RealTouch.createDataLink("main", master, {
       data: detail,
       keyFields: ["SIGUN_NM"],

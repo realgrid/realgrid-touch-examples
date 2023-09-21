@@ -143,5 +143,6 @@ async function init() {
   list = RealTouch.createListControl(document, "realtouch");
   list.setConfig(config);
   list.data = data;
+  // DataLinkView 설정 모델로 그룹핑한다.
   list.dataGroupBy();
 }

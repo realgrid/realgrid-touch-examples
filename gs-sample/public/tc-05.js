@@ -53,7 +53,7 @@ const config = {
   options: {
     row: {  // 데이터행 설정 모델
       template: "row", // 데이터행 레이아웃 생성에 사용되는 템플릿 이름 등록
-      commands: ['@delete'] // 데이터행 커맨드상자 action 등록
+      commands: ['@delete', "extraCommand"] // 데이터행 커맨드상자 action 등록
     },
     rowBar: { // Row Bar 설정 모델
       visible: true, // 표시 여부 설정
@@ -83,4 +83,17 @@ async function init() {
   list = RealTouch.createListControl(document, "realtouch");
   list.setConfig(config);
   list.data = data;
+
+  list.registerRowCommand("extraCommand", {
+    label: "EXTRA",
+    run: ({control, command, row}) => {
+      console.log(control)
+      console.log(command)
+      alert(`row가 ${row}인 행을 클릭하였습니다.`);
+    },
+    style:{
+      backgroundColor: "blue",
+      color: "#FFF"
+    }
+  });
 }

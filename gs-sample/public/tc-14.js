@@ -26,6 +26,8 @@ const row_template = {
         // 수직 레이아웃 Child #1
         layout: "hlinear", // 수평 레이아웃 설정
         width: "100%",
+        height: 70,
+        itemsAlign: "bottom",
         children: [
           // 수평 레이아웃 Child #1
           {
@@ -33,10 +35,6 @@ const row_template = {
             style: { fontSize: "17px", fontWeight: "bold", color: "#555" },
           },
           // 수평 레이아웃 Child #2
-          {
-            width: "*",
-          },
-          // 수평 레이아웃 Child #3
           {
             field: "QTY", // 요소수 수량
             style: { fontSize: "14px", color: "#555" },

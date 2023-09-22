@@ -1,2 +1,2 @@
-// *.realgrid.com,*.localhost,localhost,127.0.0.1,192.168.*,172.16.*,10.*,210.104.181.*
-var realTouchLic = 'upVcPE+wPOlJsRH3nb2OcoJrINF5KSa8kFJ3gVa7eMKFmEUEwiRZWJ96d5Xv0pv1i/KcE100Cv5pns7Dj5LHfwFYXvd+bEGsydV5ApQckONbbLvWO2T7CyOxVpb7v1suS8beBVzF89K3SfqUdIFpBOf6fSXJxL3+inhtRQX9UnsO5+/xJSE3LoSxnPX5CHZn0QeIbtyyIEGTFVqWmNPdyQ==';
+// *.realgrid.com,*.localhost,localhost,127.0.0.1,10.104.181.158,210.104.181.158
+var realTouchLic = 'upVcPE+wPOlJsRH3nb2OcoJrINF5KSa8kFJ3gVa7eMKFmEUEwiRZWJ96d5Xv0pv1i/KcE100Cv5pns7Dj5LHfwFYXvd+bEGsydV5ApQckONbbLvWO2T7CxtkwvRFnNSSn1xUPEW3DNVQtfa2npaPh47HpB/JbEXqNTakk0yR9Uefg/nOPUpHgFauUGhjeun/0F/9996uLI0=';

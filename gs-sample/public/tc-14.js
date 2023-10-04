@@ -46,6 +46,10 @@ const row_template = {
         field: "LOCPLC_ROADNM_ADDR", // 주요소 주소
         style: { fontSize: "14px", color: "#777" },
       },
+      {
+        field: "DATA_STD_DTM", // 주요소 주소
+        style: { fontSize: "14px", color: "#777" },
+      },
     ],
   },
 };
@@ -68,10 +72,13 @@ const header_template = {
       {
         editor: {
           onChange: (args) => {
-            args.ctx.setValue("title2", args.ctx.getValue("title")+args.editValue);
-          }
-        }
-      }
+            args.ctx.setValue(
+              "title2",
+              args.ctx.getValue("title") + args.editValue
+            );
+          },
+        },
+      },
     ],
   },
 };
@@ -108,9 +115,30 @@ const config = {
 async function createListData(dataurl) {
   try {
     const res = await fetch(dataurl);
-    const json = await res.json();
+    const json = (await res.json()).map((d) => {
+      d["DATA_STD_DTM"] = d["DATA_STD_DTM"].substring(
+        0,
+        d["DATA_STD_DTM"].length - 3
+      );
+      return d;
+    });
+
     // RtListData 생성
-    return RealTouch.createListData("", {}, { values: json });
+    return RealTouch.createListData(
+      "",
+      {
+        fields: [
+          { name: "OILSTATN_NM", label: "주유소 명" },
+          { name: "LOCPLC_ROADNM_ADDR", label: "도로명 주소" },
+          { name: "TELNO", label: "전화 번호" },
+          { name: "QTY", label: "수량", type: "bigint" },
+          { name: "LAT", label: "위도", type: "number" },
+          { name: "LOGT", label: "경도", type: "number" },
+          { name: "DATA_STD_DTM", type: "date", label: "데이터 입력 일시" },
+        ],
+      },
+      { values: json }
+    );
   } catch (error) {
     console.error(error);
   }

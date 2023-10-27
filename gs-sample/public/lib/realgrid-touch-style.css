@@ -26,6 +26,8 @@
     --rt-switch-on-def: 16.8px; /* 0.7 */
     --rt-switch-color-def: skyblue;
     --rt-hide-webkit-tap-highlight: transparent;
+    --rt-buttonface: #efefef;
+    --rt-button-border-line: 1px solid #767676;
     /** rowgroup classic */
     --rt-rowgroup-classic-color: #e8e8e8;
     /** datagroup classic */
@@ -41,6 +43,10 @@
     --rt-flip-duration: 0.6s;
     --rt-flip-y: -180deg;
     --rt-flip-x: 0;
+
+    /* button effect */
+    --rt-button-click-transform: scale(0.95);
+    --rt-button-click-transition: .1s;
 }
 
 /* 
@@ -68,6 +74,7 @@
     border: 0 none transparent;
     outline: 0 none transparent;
     box-shadow: none;
+    appearance: none;
     -webkit-appearance: none;
     background-color: transparent;
 }
@@ -157,6 +164,7 @@
     border: 0 none transparent;
     outline: 0 none transparent;
     box-shadow: none;
+    appearance: none;
     -webkit-appearance: none;
     -moz-appearance: none;
     background-color: transparent;
@@ -164,6 +172,10 @@
     color: blue;
     font-family: var(--rt-font-family);
     font-size: 17px;
+}
+.rtc-section-button:enabled:active {
+    transform: var(--rt-button-click-transform);
+	transition: var(--rt-button-click-transition);
 }
 .rtc-section-button:disabled {
     color: rgba(0, 0, 0, 0.3) !important;
@@ -308,6 +320,9 @@
 .rtc-row-button {
     border-radius: 5px;
     background-color: #3171e0;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
     color: white;
     padding: 1px 6px;
     margin: 0;
@@ -320,7 +335,12 @@
     border: 0 none transparent;
     outline: 0 none transparent;
     box-shadow: none;
+    appearance: none;
     -webkit-appearance: none;
+}
+.rtc-row-button:enabled:active {
+    transform: var(--rt-button-click-transform);
+	transition: var(--rt-button-click-transition);
 }
 .rtc-row-button[data-type='image'] {
     padding: 0;
@@ -724,6 +744,16 @@
 .rtc-button-button {
     padding: 4px 6px;
     font-size: 15px;
+    border: var(--rt-button-border-line);
+    border-image-width: 1;
+    /* border: 2px outset #000; */
+    border-radius: 2px;
+    background: var(--rt-buttonface);
+    color: #000;
+}
+.rtc-button-button:enabled:active {
+    transform: var(--rt-button-click-transform);
+	transition: var(--rt-button-click-transition);
 }
 .rtc-button-button:disabled {
     color: rgba(0, 0, 0, 0.3) !important;
@@ -739,6 +769,7 @@
     border: 0 none transparent;
     outline: 0 none transparent;
     box-shadow: none;
+    appearance: none;
     -webkit-appearance: none;
     background-color: transparent;
 }
@@ -750,6 +781,7 @@
 .rtc-input-input {
     outline: 0 none transparent;
     box-shadow: none;
+    appearance: none;
     -webkit-appearance: none;
     border-style: solid;
     border-width: 1px;

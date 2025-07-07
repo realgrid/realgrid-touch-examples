@@ -1,0 +1,15 @@
+{
+  "dependencies": {
+    "realgrid-touch": "^1.0.6"
+  },
+  "scripts": {
+    "dev": "npx vite",
+    "start": "npx http-server ./dist",
+    "build": "npx vite build"
+  },
+  "devDependencies": {
+    "@types/node": "^24.0.10",
+    "typescript": "^5.8.3",
+    "vite": "^6.3.5"
+  }
+}

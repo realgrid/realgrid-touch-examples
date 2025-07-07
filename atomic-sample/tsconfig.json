@@ -1,0 +1,19 @@
+{
+  "compilerOptions": {
+    "target": "ESNext",
+    "module": "ESNext",
+    "moduleResolution": "Node",
+    "strict": true,
+    "esModuleInterop": true,
+    "allowJs": false,
+    "checkJs": false,
+    "forceConsistentCasingInFileNames": true,
+    "outDir": "dist",
+    "baseUrl": "./src",
+    "paths": {
+      "@components/*": ["components/*"],
+      "@atoms/*": ["components/atoms/*"],
+    }
+  },
+  "include": ["src"]
+}

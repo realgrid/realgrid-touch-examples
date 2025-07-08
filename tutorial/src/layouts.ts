@@ -113,7 +113,7 @@ const templateForm = {
         }],
     },
     rowProps: {
-        // height: 144
+        height: 144
     },
 }
 const templateHtml = {
@@ -123,7 +123,7 @@ const templateHtml = {
     },
     rowProps: {
         height: undefined
-    }
+    },
 };
 
 const config = {
@@ -134,16 +134,16 @@ const config = {
             templateFrame,
             templateStack,
             templateForm,
-            templateHtml
+            templateHtml,
         },
     },
     options: {
-        row: { template: 'templateForm' }
+        row: { template: 'templateHlin' }
     }
 }
 
 console.log(config)
 
 const list = RealTouch.createListControl(document, 'realtouch');
-list.setConfig(config);
 list.data = RealTouch.createListData("data", {}, data);
+list.setConfig(config);

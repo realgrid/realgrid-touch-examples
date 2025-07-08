@@ -29,7 +29,14 @@
 </head>
 
 <body>
-    <div id="realtouch"></div>
+    <div id="realtouch">
+        <div class="rtc-renderers">
+            <div id="row">
+                <div><span style="font-size:17px;font-weight:bold;color:#555;">${@message}</span></div>
+                <div><span style="font-size:14px;color:#777;">${@distance}</span></div>
+            </div>
+        </div>
+    </div>
     <script type="module" src="/src/layouts.ts"></script>
 </body>
 

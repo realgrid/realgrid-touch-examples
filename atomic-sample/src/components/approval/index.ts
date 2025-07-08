@@ -91,16 +91,24 @@ export const row = {
             ]
         },
         body: {
-            layout: 'hlinear',
+            id: 'approval',
+            layout: 'repeater',
+            direction: 'horizontal',
+            field: 'lines',
             children: [
-                Label({ field: 'lines.0'}),
-                ...Array.from({length: 4}).map((c: any, i: number) => {
-                    return Label({field: 'lines.' + (i + 1), options: { prefix: ' > '}});
-                })
+                Label({ field: 'name' }),
+                Label({ field: 'name', options: { prefix: ' > ' } }),
             ],
-            params: {
-
+            layoutCallback: (args: {row: number, count: number, index: number}) => {
+                return args.index == 0 ? 0 : 1;
             }
+            // layout: 'hlinear',
+            // children: [
+            //     Label({ field: 'lines.0'}),
+            //     ...Array.from({length: 4}).map((c: any, i: number) => {
+            //         return Label({field: 'lines.' + (i + 1), options: { prefix: ' > '}});
+            //     })
+            // ],
         }
     }),
 }

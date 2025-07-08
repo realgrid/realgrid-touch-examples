@@ -1,0 +1,1034 @@
+[
+    {
+        "SIGUN_NM": "의왕시",
+        "DIV": "가공품",
+        "ENTRPS_NM": "쿠키라인",
+        "PRODLST_NM": "쿠기 빵",
+        "TELNO": "031-345-2382",
+        "PRICE": 1000
+    },
+    {
+        "SIGUN_NM": "의정부시",
+        "DIV": "농산물",
+        "ENTRPS_NM": "송산배",
+        "PRODLST_NM": "배",
+        "TELNO": "031-828-2312",
+        "PRICE": 1000
+    },
+    {
+        "SIGUN_NM": "연천군",
+        "DIV": "농산물",
+        "ENTRPS_NM": "연천쌀",
+        "PRODLST_NM": "쌀",
+        "TELNO": "031-839-2317",
+        "PRICE": 1000
+    },
+    {
+        "SIGUN_NM": "연천군",
+        "DIV": "농산물",
+        "ENTRPS_NM": "아희와",
+        "PRODLST_NM": "현미",
+        "TELNO": "031-839-2317",
+        "PRICE": 1000
+    },
+    {
+        "SIGUN_NM": "연천군",
+        "DIV": "농산물",
+        "ENTRPS_NM": "아희랑",
+        "PRODLST_NM": "현미",
+        "TELNO": "031-839-2317",
+        "PRICE": 1000
+    },
+    {
+        "SIGUN_NM": "연천군",
+        "DIV": "가공식품",
+        "ENTRPS_NM": "선한이웃",
+        "PRODLST_NM": "장류",
+        "TELNO": "031-839-2317",
+        "PRICE": 1000
+    },
+    {
+        "SIGUN_NM": "연천군",
+        "DIV": "축산물",
+        "ENTRPS_NM": "유환유정란",
+        "PRODLST_NM": "달걀",
+        "TELNO": "031-839-2317",
+        "PRICE": 1000
+    },
+    {
+        "SIGUN_NM": "연천군",
+        "DIV": "농산물",
+        "ENTRPS_NM": "가람가온김치",
+        "PRODLST_NM": "김치",
+        "TELNO": "031-839-2317",
+        "PRICE": 1000
+    },
+    {
+        "SIGUN_NM": "연천군",
+        "DIV": "농산물",
+        "ENTRPS_NM": "황진이",
+        "PRODLST_NM": "배",
+        "TELNO": "031-839-2317",
+        "PRICE": 1000
+    },
+    {
+        "SIGUN_NM": "연천군",
+        "DIV": "가공식품",
+        "ENTRPS_NM": "개성홍삼",
+        "PRODLST_NM": "홍삼",
+        "TELNO": "031-839-2317",
+        "PRICE": 1000
+    },
+    {
+        "SIGUN_NM": "연천군",
+        "DIV": "가공식품",
+        "ENTRPS_NM": "깜밥누룽지",
+        "PRODLST_NM": "누룽지",
+        "TELNO": "031-839-2317",
+        "PRICE": 1000
+    },
+    {
+        "SIGUN_NM": "연천군",
+        "DIV": "농산물",
+        "ENTRPS_NM": "오색소반",
+        "PRODLST_NM": "김치",
+        "TELNO": "031-839-2317",
+        "PRICE": 1000
+    },
+    {
+        "SIGUN_NM": "연천군",
+        "DIV": "농산물",
+        "ENTRPS_NM": "연천버섯",
+        "PRODLST_NM": "버섯",
+        "TELNO": "031-839-2317",
+        "PRICE": 1000
+    },
+    {
+        "SIGUN_NM": "연천군",
+        "DIV": "농산물",
+        "ENTRPS_NM": "팩호박",
+        "PRODLST_NM": "호박",
+        "TELNO": "031-839-2317",
+        "PRICE": 1000
+    },
+    {
+        "SIGUN_NM": "연천군",
+        "DIV": "농산물",
+        "ENTRPS_NM": "연천율무",
+        "PRODLST_NM": "율무",
+        "TELNO": "031-839-2317",
+        "PRICE": 1000
+    },
+    {
+        "SIGUN_NM": "연천군",
+        "DIV": "농산물",
+        "ENTRPS_NM": "연천고추",
+        "PRODLST_NM": "고추",
+        "TELNO": "031-839-2317",
+        "PRICE": 1000
+    },
+    {
+        "SIGUN_NM": "연천군",
+        "DIV": "농산물",
+        "ENTRPS_NM": "연천오이",
+        "PRODLST_NM": "오이",
+        "TELNO": "031-839-2317",
+        "PRICE": 1000
+    },
+    {
+        "SIGUN_NM": "연천군",
+        "DIV": "농산물",
+        "ENTRPS_NM": "율무느타리버섯",
+        "PRODLST_NM": "버섯",
+        "TELNO": "031-839-2317",
+        "PRICE": 1000
+    },
+    {
+        "SIGUN_NM": "화성시",
+        "DIV": "농산물",
+        "ENTRPS_NM": "햇살드리",
+        "PRODLST_NM": "포도",
+        "TELNO": "031-369-2635",
+        "PRICE": 1000
+    },
+    {
+        "SIGUN_NM": "화성시",
+        "DIV": "농산물",
+        "ENTRPS_NM": "햇살드리",
+        "PRODLST_NM": "배",
+        "TELNO": "031-369-2636",
+        "PRICE": 1000
+    },
+    {
+        "SIGUN_NM": "양주시",
+        "DIV": "농산물",
+        "ENTRPS_NM": "양주골쌀",
+        "PRODLST_NM": "쌀",
+        "TELNO": "031-8082-6112",
+        "PRICE": 1000
+    },
+    {
+        "SIGUN_NM": "화성시",
+        "DIV": "농산물",
+        "ENTRPS_NM": "햇살드리",
+        "PRODLST_NM": "쌀",
+        "TELNO": "031-369-2635",
+        "PRICE": 1000
+    },
+    {
+        "SIGUN_NM": "화성시",
+        "DIV": "수산물",
+        "ENTRPS_NM": "제부도 갯벌 김",
+        "PRODLST_NM": "김",
+        "TELNO": "031-369-3163",
+        "PRICE": 1000
+    },
+    {
+        "SIGUN_NM": "김포시",
+        "DIV": "농산물",
+        "ENTRPS_NM": "김포금쌀",
+        "PRODLST_NM": "쌀",
+        "TELNO": "031-980-2813",
+        "PRICE": 1000
+    },
+    {
+        "SIGUN_NM": "양주시",
+        "DIV": "농산물",
+        "ENTRPS_NM": "양주 영양부추",
+        "PRODLST_NM": "부추",
+        "TELNO": "031-8082-6112",
+        "PRICE": 1000
+    },
+    {
+        "SIGUN_NM": "양주시",
+        "DIV": "농산물",
+        "ENTRPS_NM": "양주골참새벽딸기",
+        "PRODLST_NM": "딸기",
+        "TELNO": "031-8082-6112",
+        "PRICE": 1000
+    },
+    {
+        "SIGUN_NM": "양주시",
+        "DIV": "축산물",
+        "ENTRPS_NM": "한우풍경",
+        "PRODLST_NM": "한우",
+        "TELNO": "031-8082-6112",
+        "PRICE": 1000
+    },
+    {
+        "SIGUN_NM": "김포시",
+        "DIV": "농산물",
+        "ENTRPS_NM": "김포배",
+        "PRODLST_NM": "배",
+        "TELNO": "031-980-2813",
+        "PRICE": 1000
+    },
+    {
+        "SIGUN_NM": "김포시",
+        "DIV": "농산물",
+        "ENTRPS_NM": "김포포도",
+        "PRODLST_NM": "포도",
+        "TELNO": "031-980-2813",
+        "PRICE": 1000
+    },
+    {
+        "SIGUN_NM": "양주시",
+        "DIV": "임산물",
+        "ENTRPS_NM": "청산버섯",
+        "PRODLST_NM": "버섯",
+        "TELNO": "031-8082-6112",
+        "PRICE": 1000
+    },
+    {
+        "SIGUN_NM": "김포시",
+        "DIV": "농산물",
+        "ENTRPS_NM": "김포인삼",
+        "PRODLST_NM": "인삼",
+        "TELNO": "031-980-2813",
+        "PRICE": 1000
+    },
+    {
+        "SIGUN_NM": "김포시",
+        "DIV": "수산물",
+        "ENTRPS_NM": "김포꽃게",
+        "PRODLST_NM": "꽃게",
+        "TELNO": "031-980-2813",
+        "PRICE": 1000
+    },
+    {
+        "SIGUN_NM": "양주시",
+        "DIV": "가공식품",
+        "ENTRPS_NM": "유기농 행복배즙",
+        "PRODLST_NM": "배즙",
+        "TELNO": "031-8082-6112",
+        "PRICE": 1000
+    },
+    {
+        "SIGUN_NM": "양주시",
+        "DIV": "가공식품",
+        "ENTRPS_NM": "손바닥선인장",
+        "PRODLST_NM": "천년초",
+        "TELNO": "031-8082-6112",
+        "PRICE": 1000
+    },
+    {
+        "SIGUN_NM": "양주시",
+        "DIV": "가공식품",
+        "ENTRPS_NM": "양주골약도라지진액",
+        "PRODLST_NM": "도라지",
+        "TELNO": "031-8082-6112",
+        "PRICE": 1000
+    },
+    {
+        "SIGUN_NM": "양주시",
+        "DIV": "가공식품",
+        "ENTRPS_NM": "썬앤코꿀마늘잼",
+        "PRODLST_NM": "마늘잼",
+        "TELNO": "031-8082-6112",
+        "PRICE": 1000
+    },
+    {
+        "SIGUN_NM": "포천시",
+        "DIV": "농산물",
+        "ENTRPS_NM": "해솔촌기찬쌀",
+        "PRODLST_NM": "쌀",
+        "TELNO": "031-538-3723",
+        "PRICE": 1000
+    },
+    {
+        "SIGUN_NM": "여주시",
+        "DIV": "농산물",
+        "ENTRPS_NM": "대왕님표",
+        "PRODLST_NM": "여주쌀",
+        "TELNO": "031-887-2772",
+        "PRICE": 1000
+    },
+    {
+        "SIGUN_NM": "포천시",
+        "DIV": "농산물",
+        "ENTRPS_NM": "해솔촌포도",
+        "PRODLST_NM": "포도",
+        "TELNO": "031-538-3723",
+        "PRICE": 1000
+    },
+    {
+        "SIGUN_NM": "포천시",
+        "DIV": "농산물",
+        "ENTRPS_NM": "해솔촌사과",
+        "PRODLST_NM": "사과",
+        "TELNO": "031-538-3723",
+        "PRICE": 1000
+    },
+    {
+        "SIGUN_NM": "여주시",
+        "DIV": "농산물",
+        "ENTRPS_NM": "대왕님표",
+        "PRODLST_NM": "고구마",
+        "TELNO": "031-887-2772",
+        "PRICE": 1000
+    },
+    {
+        "SIGUN_NM": "포천시",
+        "DIV": "농산물",
+        "ENTRPS_NM": "포천인삼",
+        "PRODLST_NM": "10~11월",
+        "TELNO": "031-538-3723",
+        "PRICE": 1000
+    },
+    {
+        "SIGUN_NM": "여주시",
+        "DIV": "농산물",
+        "ENTRPS_NM": "대왕님표",
+        "PRODLST_NM": "땅콩",
+        "TELNO": "031-887-2773",
+        "PRICE": 1000
+    },
+    {
+        "SIGUN_NM": "포천시",
+        "DIV": "농산물",
+        "ENTRPS_NM": "포천버섯",
+        "PRODLST_NM": "버섯",
+        "TELNO": "031-538-3723",
+        "PRICE": 1000
+    },
+    {
+        "SIGUN_NM": "여주시",
+        "DIV": "농산물",
+        "ENTRPS_NM": "대왕님표",
+        "PRODLST_NM": "참외",
+        "TELNO": "031-887-2776",
+        "PRICE": 1000
+    },
+    {
+        "SIGUN_NM": "포천시",
+        "DIV": "임산물",
+        "ENTRPS_NM": "포천 표고버섯",
+        "PRODLST_NM": "표고",
+        "TELNO": "031-538-3342",
+        "PRICE": 1000
+    },
+    {
+        "SIGUN_NM": "여주시",
+        "DIV": "임산물",
+        "ENTRPS_NM": "여주표고버섯",
+        "PRODLST_NM": "표고버섯",
+        "TELNO": "031-887-2332",
+        "PRICE": 1000
+    },
+    {
+        "SIGUN_NM": "포천시",
+        "DIV": "임산물",
+        "ENTRPS_NM": "포천잣",
+        "PRODLST_NM": "잣",
+        "TELNO": "031-538-3342",
+        "PRICE": 1000
+    },
+    {
+        "SIGUN_NM": "포천시",
+        "DIV": "축산물",
+        "ENTRPS_NM": "백운한우",
+        "PRODLST_NM": "한우",
+        "TELNO": "031-538-3881",
+        "PRICE": 1000
+    },
+    {
+        "SIGUN_NM": "포천시",
+        "DIV": "축산물",
+        "ENTRPS_NM": "미트빌",
+        "PRODLST_NM": "돈육",
+        "TELNO": "031-538-3881",
+        "PRICE": 1000
+    },
+    {
+        "SIGUN_NM": "포천시",
+        "DIV": "축산물",
+        "ENTRPS_NM": "금가돈",
+        "PRODLST_NM": "돈육",
+        "TELNO": "031-538-3881",
+        "PRICE": 1000
+    },
+    {
+        "SIGUN_NM": "포천시",
+        "DIV": "축산물",
+        "ENTRPS_NM": "네모난계란",
+        "PRODLST_NM": "계란",
+        "TELNO": "031-538-3881",
+        "PRICE": 1000
+    },
+    {
+        "SIGUN_NM": "포천시",
+        "DIV": "가공식품",
+        "ENTRPS_NM": "포천막걸리",
+        "PRODLST_NM": "탁주",
+        "TELNO": "031-538-3723",
+        "PRICE": 1000
+    },
+    {
+        "SIGUN_NM": "용인시",
+        "DIV": "농산물",
+        "ENTRPS_NM": "백옥쌀",
+        "PRODLST_NM": "쌀",
+        "TELNO": "031-334-9762",
+        "PRICE": 1000
+    },
+    {
+        "SIGUN_NM": "용인시",
+        "DIV": "농산물",
+        "ENTRPS_NM": "햇살미인 세븐라이스",
+        "PRODLST_NM": "쌀",
+        "TELNO": "031-339-2041",
+        "PRICE": 1000
+    },
+    {
+        "SIGUN_NM": "포천시",
+        "DIV": "가공식품",
+        "ENTRPS_NM": "김규흔한과",
+        "PRODLST_NM": "한과",
+        "TELNO": "031-538-3723",
+        "PRICE": 1000
+    },
+    {
+        "SIGUN_NM": "용인시",
+        "DIV": "농산물",
+        "ENTRPS_NM": "용인백옥포도",
+        "PRODLST_NM": "포도",
+        "TELNO": "031-334-4037",
+        "PRICE": 1000
+    },
+    {
+        "SIGUN_NM": "용인시",
+        "DIV": "농산물",
+        "ENTRPS_NM": "용인백옥복숭아",
+        "PRODLST_NM": "복숭아",
+        "TELNO": "031-339-2041",
+        "PRICE": 1000
+    },
+    {
+        "SIGUN_NM": "포천시",
+        "DIV": "가공식품",
+        "ENTRPS_NM": "담미정",
+        "PRODLST_NM": "한과",
+        "TELNO": "031-538-3723",
+        "PRICE": 1000
+    },
+    {
+        "SIGUN_NM": "용인시",
+        "DIV": "농산물",
+        "ENTRPS_NM": "용인배",
+        "PRODLST_NM": "배",
+        "TELNO": "031-332-8257",
+        "PRICE": 1000
+    },
+    {
+        "SIGUN_NM": "포천시",
+        "DIV": "가공식품",
+        "ENTRPS_NM": "한송정",
+        "PRODLST_NM": "인삼가공제품",
+        "TELNO": "031-538-3723",
+        "PRICE": 1000
+    },
+    {
+        "SIGUN_NM": "포천시",
+        "DIV": "가공식품",
+        "ENTRPS_NM": "송학인",
+        "PRODLST_NM": "인삼가공제품",
+        "TELNO": "031-538-3723",
+        "PRICE": 1000
+    },
+    {
+        "SIGUN_NM": "용인시",
+        "DIV": "농산물",
+        "ENTRPS_NM": "용인수박",
+        "PRODLST_NM": "수박",
+        "TELNO": "031-339-2041",
+        "PRICE": 1000
+    },
+    {
+        "SIGUN_NM": "용인시",
+        "DIV": "농산물",
+        "ENTRPS_NM": "용인백옥채소",
+        "PRODLST_NM": "엽채류",
+        "TELNO": "031-332-5844",
+        "PRICE": 1000
+    },
+    {
+        "SIGUN_NM": "이천시",
+        "DIV": "농산물",
+        "ENTRPS_NM": "임금님표이천",
+        "PRODLST_NM": "쌀",
+        "TELNO": "031-644-2317",
+        "PRICE": 1000
+    },
+    {
+        "SIGUN_NM": "용인시",
+        "DIV": "농산물",
+        "ENTRPS_NM": "용인백옥오이",
+        "PRODLST_NM": "오이",
+        "TELNO": "031-333-4096",
+        "PRICE": 1000
+    },
+    {
+        "SIGUN_NM": "이천시",
+        "DIV": "농산물",
+        "ENTRPS_NM": "임금님표 이천 자올린",
+        "PRODLST_NM": "엽경채류",
+        "TELNO": "031-644-2323",
+        "PRICE": 1000
+    },
+    {
+        "SIGUN_NM": "이천시",
+        "DIV": "축산물",
+        "ENTRPS_NM": "임금님표 이천",
+        "PRODLST_NM": "한우",
+        "TELNO": "031-644-2628",
+        "PRICE": 1000
+    },
+    {
+        "SIGUN_NM": "용인시",
+        "DIV": "농산물",
+        "ENTRPS_NM": "용인느타리버섯",
+        "PRODLST_NM": "느타리버섯",
+        "TELNO": "031-332-5844",
+        "PRICE": 1000
+    },
+    {
+        "SIGUN_NM": "이천시",
+        "DIV": "축산물",
+        "ENTRPS_NM": "임금님표 이천",
+        "PRODLST_NM": "돼지",
+        "TELNO": "031-644-2628",
+        "PRICE": 1000
+    },
+    {
+        "SIGUN_NM": "용인시",
+        "DIV": "농산물",
+        "ENTRPS_NM": "용인오미자",
+        "PRODLST_NM": "오미자",
+        "TELNO": "031-332-5878",
+        "PRICE": 1000
+    },
+    {
+        "SIGUN_NM": "이천시",
+        "DIV": "축산물",
+        "ENTRPS_NM": "임금님표 이천",
+        "PRODLST_NM": "계란",
+        "TELNO": "031-644-2628",
+        "PRICE": 1000
+    },
+    {
+        "SIGUN_NM": "용인시",
+        "DIV": "농산물",
+        "ENTRPS_NM": "용인화훼",
+        "PRODLST_NM": "화훼류",
+        "TELNO": "031-339-7717",
+        "PRICE": 1000
+    },
+    {
+        "SIGUN_NM": "용인시",
+        "DIV": "농산물",
+        "ENTRPS_NM": "용인딸기",
+        "PRODLST_NM": "딸기",
+        "TELNO": "031-339-1550",
+        "PRICE": 1000
+    },
+    {
+        "SIGUN_NM": "이천시",
+        "DIV": "축산물",
+        "ENTRPS_NM": "임금님표 이천",
+        "PRODLST_NM": "벌꿀",
+        "TELNO": "031-644-2628",
+        "PRICE": 1000
+    },
+    {
+        "SIGUN_NM": "용인시",
+        "DIV": "축산물",
+        "ENTRPS_NM": "용인백옥한우",
+        "PRODLST_NM": "한우",
+        "TELNO": "031-332-2331",
+        "PRICE": 1000
+    },
+    {
+        "SIGUN_NM": "용인시",
+        "DIV": "축산물",
+        "ENTRPS_NM": "용인성산포크",
+        "PRODLST_NM": "돼지",
+        "TELNO": "031-333-5441",
+        "PRICE": 1000
+    },
+    {
+        "SIGUN_NM": "용인시",
+        "DIV": "축산물",
+        "ENTRPS_NM": "용인백옥꿀",
+        "PRODLST_NM": "꿀",
+        "TELNO": "031-333-2416",
+        "PRICE": 1000
+    },
+    {
+        "SIGUN_NM": "남양주시",
+        "DIV": "농산물",
+        "ENTRPS_NM": "먹골배",
+        "PRODLST_NM": "배",
+        "TELNO": "031-590-8878",
+        "PRICE": 1000
+    },
+    {
+        "SIGUN_NM": "용인시",
+        "DIV": "축산물",
+        "ENTRPS_NM": "계란",
+        "PRODLST_NM": "계란",
+        "TELNO": "031-282-6230",
+        "PRICE": 1000
+    },
+    {
+        "SIGUN_NM": "용인시",
+        "DIV": "축산물",
+        "ENTRPS_NM": "마니커",
+        "PRODLST_NM": "닭고기",
+        "TELNO": "031-281-5300",
+        "PRICE": 1000
+    },
+    {
+        "SIGUN_NM": "남양주시",
+        "DIV": "농산물",
+        "ENTRPS_NM": "드릅/고로쇠",
+        "PRODLST_NM": "드릅/고로쇠",
+        "TELNO": "031-590-2315",
+        "PRICE": 1000
+    },
+    {
+        "SIGUN_NM": "용인시",
+        "DIV": "임산물",
+        "ENTRPS_NM": "용인표고버섯",
+        "PRODLST_NM": "표고버섯",
+        "TELNO": "031-336-7043",
+        "PRICE": 1000
+    },
+    {
+        "SIGUN_NM": "남양주시",
+        "DIV": "임산물",
+        "ENTRPS_NM": "조복산삼",
+        "PRODLST_NM": "산양삼",
+        "TELNO": "031-590-2315",
+        "PRICE": 1000
+    },
+    {
+        "SIGUN_NM": "용인시",
+        "DIV": "기타",
+        "ENTRPS_NM": "대보원",
+        "PRODLST_NM": "산삼배양근",
+        "TELNO": "031-281-5438",
+        "PRICE": 1000
+    },
+    {
+        "SIGUN_NM": "용인시",
+        "DIV": "기타",
+        "ENTRPS_NM": "용인전통장",
+        "PRODLST_NM": "전통장",
+        "TELNO": "031-339-1281",
+        "PRICE": 1000
+    },
+    {
+        "SIGUN_NM": "남양주시",
+        "DIV": "가공식품",
+        "ENTRPS_NM": "뜰안에 된장",
+        "PRODLST_NM": "장류",
+        "TELNO": "031-590-2315",
+        "PRICE": 1000
+    },
+    {
+        "SIGUN_NM": "용인시",
+        "DIV": "기타",
+        "ENTRPS_NM": "다솜김치",
+        "PRODLST_NM": "김치",
+        "TELNO": "031-334-7223",
+        "PRICE": 1000
+    },
+    {
+        "SIGUN_NM": "용인시",
+        "DIV": "기타",
+        "ENTRPS_NM": "웬떡",
+        "PRODLST_NM": "떡",
+        "TELNO": "031-333-2777",
+        "PRICE": 1000
+    },
+    {
+        "SIGUN_NM": "용인시",
+        "DIV": "기타",
+        "ENTRPS_NM": "옥로주",
+        "PRODLST_NM": "전통주",
+        "TELNO": "031-333-0335",
+        "PRICE": 1000
+    },
+    {
+        "SIGUN_NM": "용인시",
+        "DIV": "기타",
+        "ENTRPS_NM": "미르40",
+        "PRODLST_NM": "전통주",
+        "TELNO": "070-4218-5225",
+        "PRICE": 1000
+    },
+    {
+        "SIGUN_NM": "남양주시",
+        "DIV": "가공식품",
+        "ENTRPS_NM": "뜰안에 된장",
+        "PRODLST_NM": "보리된장",
+        "TELNO": "031-590-2315",
+        "PRICE": 1000
+    },
+    {
+        "SIGUN_NM": "용인시",
+        "DIV": "기타",
+        "ENTRPS_NM": "석성주",
+        "PRODLST_NM": "전통주",
+        "TELNO": "031-337-1315",
+        "PRICE": 1000
+    },
+    {
+        "SIGUN_NM": "용인시",
+        "DIV": "기타",
+        "ENTRPS_NM": "청녹수",
+        "PRODLST_NM": "청보리",
+        "TELNO": "031-333-9900",
+        "PRICE": 1000
+    },
+    {
+        "SIGUN_NM": "용인시",
+        "DIV": "기타",
+        "ENTRPS_NM": "오가사랑",
+        "PRODLST_NM": "오가피",
+        "TELNO": "031-323-0503",
+        "PRICE": 1000
+    },
+    {
+        "SIGUN_NM": "용인시",
+        "DIV": "기타",
+        "ENTRPS_NM": "우리흑마늘",
+        "PRODLST_NM": "흑마늘",
+        "TELNO": "031-339-6147",
+        "PRICE": 1000
+    },
+    {
+        "SIGUN_NM": "동두천시",
+        "DIV": "임산물",
+        "ENTRPS_NM": "소요산 자연다믄",
+        "PRODLST_NM": "산양산삼",
+        "TELNO": "031-860-2313",
+        "PRICE": 1000
+    },
+    {
+        "SIGUN_NM": "남양주시",
+        "DIV": "가공식품",
+        "ENTRPS_NM": "뜰안에 된장",
+        "PRODLST_NM": "보리간장",
+        "TELNO": "031-590-2315",
+        "PRICE": 1000
+    },
+    {
+        "SIGUN_NM": "동두천시",
+        "DIV": "농산물",
+        "ENTRPS_NM": "소요산 자연다믄",
+        "PRODLST_NM": "열무",
+        "TELNO": "031-860-2313",
+        "PRICE": 1000
+    },
+    {
+        "SIGUN_NM": "동두천시",
+        "DIV": "농산물",
+        "ENTRPS_NM": "소요산 자연다믄",
+        "PRODLST_NM": "버섯",
+        "TELNO": "031-860-2313",
+        "PRICE": 1000
+    },
+    {
+        "SIGUN_NM": "남양주시",
+        "DIV": "가공식품",
+        "ENTRPS_NM": "뜰안에 된장",
+        "PRODLST_NM": "청국장",
+        "TELNO": "031-590-2315",
+        "PRICE": 1000
+    },
+    {
+        "SIGUN_NM": "동두천시",
+        "DIV": "가공식품",
+        "ENTRPS_NM": "소요산 자연다믄",
+        "PRODLST_NM": "조청",
+        "TELNO": "031-860-2313",
+        "PRICE": 1000
+    },
+    {
+        "SIGUN_NM": "남양주시",
+        "DIV": "가공식품",
+        "ENTRPS_NM": "뜰안에 된장",
+        "PRODLST_NM": "보배고추장",
+        "TELNO": "031-590-2315",
+        "PRICE": 1000
+    },
+    {
+        "SIGUN_NM": "동두천시",
+        "DIV": "가공식품",
+        "ENTRPS_NM": "소요산 자연다믄",
+        "PRODLST_NM": "된장",
+        "TELNO": "031-860-2313",
+        "PRICE": 1000
+    },
+    {
+        "SIGUN_NM": "동두천시",
+        "DIV": "축산물",
+        "ENTRPS_NM": "소요산 자연다믄",
+        "PRODLST_NM": "꿀",
+        "TELNO": "031-860-2313",
+        "PRICE": 1000
+    },
+    {
+        "SIGUN_NM": "남양주시",
+        "DIV": "가공식품",
+        "ENTRPS_NM": "뜰안에 된장",
+        "PRODLST_NM": "쩜짜장(까망된장)",
+        "TELNO": "031-590-2315",
+        "PRICE": 1000
+    },
+    {
+        "SIGUN_NM": "동두천시",
+        "DIV": "가공식품",
+        "ENTRPS_NM": "소요산 자연다믄",
+        "PRODLST_NM": "김치류",
+        "TELNO": "031-860-2313",
+        "PRICE": 1000
+    },
+    {
+        "SIGUN_NM": "시흥시",
+        "DIV": "농산물",
+        "ENTRPS_NM": "햇토미",
+        "PRODLST_NM": "쌀",
+        "TELNO": "031-310-2323",
+        "PRICE": 1000
+    },
+    {
+        "SIGUN_NM": "시흥시",
+        "DIV": "농산물",
+        "ENTRPS_NM": "시흥포도",
+        "PRODLST_NM": "포도",
+        "TELNO": "031-310-2323",
+        "PRICE": 1000
+    },
+    {
+        "SIGUN_NM": "시흥시",
+        "DIV": "농산물",
+        "ENTRPS_NM": "시흥미나리",
+        "PRODLST_NM": "미나리",
+        "TELNO": "031-310-2323",
+        "PRICE": 1000
+    },
+    {
+        "SIGUN_NM": "남양주시",
+        "DIV": "가공식품",
+        "ENTRPS_NM": "태초솔트",
+        "PRODLST_NM": "미네랄 저염 소금",
+        "TELNO": "031-590-2315",
+        "PRICE": 1000
+    },
+    {
+        "SIGUN_NM": "시흥시",
+        "DIV": "농산물",
+        "ENTRPS_NM": "시흥연근",
+        "PRODLST_NM": "연근",
+        "TELNO": "031-310-2323",
+        "PRICE": 1000
+    },
+    {
+        "SIGUN_NM": "광주시",
+        "DIV": "축산물",
+        "ENTRPS_NM": "자연채",
+        "PRODLST_NM": "계란",
+        "TELNO": "031-760-2877",
+        "PRICE": 1000
+    },
+    {
+        "SIGUN_NM": "연천군",
+        "DIV": "농산물",
+        "ENTRPS_NM": "맑은연천병배",
+        "PRODLST_NM": "배",
+        "TELNO": "031-839-2317",
+        "PRICE": 1000
+    },
+    {
+        "SIGUN_NM": "광주시",
+        "DIV": "농산물",
+        "ENTRPS_NM": "자연채",
+        "PRODLST_NM": "토마토",
+        "TELNO": "031-760-2877",
+        "PRICE": 1000
+    },
+    {
+        "SIGUN_NM": "광주시",
+        "DIV": "농산물",
+        "ENTRPS_NM": "자연채",
+        "PRODLST_NM": "쌈채류",
+        "TELNO": "031-760-2877",
+        "PRICE": 1000
+    },
+    {
+        "SIGUN_NM": "연천군",
+        "DIV": "농산물",
+        "ENTRPS_NM": "맑은연천병포도",
+        "PRODLST_NM": "포도",
+        "TELNO": "031-839-2317",
+        "PRICE": 1000
+    },
+    {
+        "SIGUN_NM": "광주시",
+        "DIV": "농산물",
+        "ENTRPS_NM": "자연채",
+        "PRODLST_NM": "버섯(표고)",
+        "TELNO": "031-760-2877",
+        "PRICE": 1000
+    },
+    {
+        "SIGUN_NM": "연천군",
+        "DIV": "농산물",
+        "ENTRPS_NM": "민통선고사리",
+        "PRODLST_NM": "고사리",
+        "TELNO": "031-839-2317",
+        "PRICE": 1000
+    },
+    {
+        "SIGUN_NM": "광주시",
+        "DIV": "농산물",
+        "ENTRPS_NM": "자연채",
+        "PRODLST_NM": "느타리버섯",
+        "TELNO": "031-760-2877",
+        "PRICE": 1000
+    },
+    {
+        "SIGUN_NM": "연천군",
+        "DIV": "축산물",
+        "ENTRPS_NM": "연천토종꿀",
+        "PRODLST_NM": "토종꿀",
+        "TELNO": "031-839-2317",
+        "PRICE": 1000
+    },
+    {
+        "SIGUN_NM": "구리시",
+        "DIV": "농산물",
+        "ENTRPS_NM": "구리먹골배",
+        "PRODLST_NM": "배",
+        "TELNO": "031-550-2321",
+        "PRICE": 1000
+    },
+    {
+        "SIGUN_NM": "구리시",
+        "DIV": "농산물",
+        "ENTRPS_NM": "백교부추",
+        "PRODLST_NM": "부추",
+        "TELNO": "031-550-2321",
+        "PRICE": 1000
+    },
+    {
+        "SIGUN_NM": "연천군",
+        "DIV": "축산물",
+        "ENTRPS_NM": "연천대광꿀",
+        "PRODLST_NM": "꿀",
+        "TELNO": "031-839-2317",
+        "PRICE": 1000
+    },
+    {
+        "SIGUN_NM": "연천군",
+        "DIV": "임산물",
+        "ENTRPS_NM": "연천DMZ밤",
+        "PRODLST_NM": "밤",
+        "TELNO": "031-839-2317",
+        "PRICE": 1000
+    },
+    {
+        "SIGUN_NM": "의왕시",
+        "DIV": "농산물",
+        "ENTRPS_NM": "의왕우렁쌀",
+        "PRODLST_NM": "부추",
+        "TELNO": "031-345-2392",
+        "PRICE": 1000
+    },
+    {
+        "SIGUN_NM": "연천군",
+        "DIV": "가공식품",
+        "ENTRPS_NM": "고궁한과",
+        "PRODLST_NM": "한과",
+        "TELNO": "031-839-2317",
+        "PRICE": 1000
+    },
+    {
+        "SIGUN_NM": "연천군",
+        "DIV": "농산물",
+        "ENTRPS_NM": "연천포도",
+        "PRODLST_NM": "포도",
+        "TELNO": "031-839-2317",
+        "PRICE": 1000
+    },
+    {
+        "SIGUN_NM": "연천군",
+        "DIV": "가공식품",
+        "ENTRPS_NM": "율무막걸리",
+        "PRODLST_NM": "막걸리",
+        "TELNO": "031-839-2317",
+        "PRICE": 1000
+    }
+]

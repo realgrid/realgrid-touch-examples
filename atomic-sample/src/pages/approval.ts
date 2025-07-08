@@ -9,18 +9,23 @@ const config = {
         },
         style: {
             backgroundColor: '#f5f5f5'
-        }
+        },
+        
     },
     options: {
         header,
         row: {
             template: 'row',
             touchEffect: false,
+            borderLine: {
+                style: 'none'
+            }
         },
         scrollIndicator: false,
         footer: false,
         overScrollEffect: 'none',
     },
+    
 };
 
 list.setConfig(config);
@@ -33,7 +38,7 @@ list.data = RealTouch.createListData('', {}, [
     approval: '2025-07-01 09:45',
     attachment: 1,
     comment: 2,
-    lines: ['김유니', '홍길동']
+    lines: [{ name: '김유니' }, { name: '홍길동' }]
   },
   {
     status: '완료',
@@ -43,7 +48,7 @@ list.data = RealTouch.createListData('', {}, [
     approval: '2025-06-15 14:50',
     attachment: 2,
     comment: 1,
-    lines: ['최우선', '박팀장']
+    lines: [{ name: '최우선' }, { name: '박팀장' }]
   },
   {
     status: '진행',
@@ -53,7 +58,7 @@ list.data = RealTouch.createListData('', {}, [
     approval: '2025-06-10 09:30',
     attachment: 0,
     comment: 0,
-    lines: ['이예림', '이상무']
+    lines: [{ name: '이예림' }, { name: '이상무' }]
   },
   {
     status: '진행',
@@ -63,7 +68,7 @@ list.data = RealTouch.createListData('', {}, [
     approval: '2025-05-22 11:00',
     attachment: 3,
     comment: 1,
-    lines: ['조아라', '홍길동', '박부장']
+    lines: [{ name: '조아라' }, { name: '홍길동' }, { name: '박부장' }]
   },
   {
     status: '진행',
@@ -73,7 +78,7 @@ list.data = RealTouch.createListData('', {}, [
     approval: '2025-05-17 16:05',
     attachment: 1,
     comment: 0,
-    lines: ['장보람', '정매니저']
+    lines: [{ name: '장보람' }, { name: '정매니저' }]
   },
   {
     status: '반려',
@@ -83,7 +88,7 @@ list.data = RealTouch.createListData('', {}, [
     approval: '2025-04-20 14:35',
     attachment: 1,
     comment: 3,
-    lines: ['김철수', '이부장']
+    lines: [{ name: '김철수' }, { name: '이부장' }]
   },
   {
     status: '진행',
@@ -93,7 +98,7 @@ list.data = RealTouch.createListData('', {}, [
     approval: '2025-04-01 17:42',
     attachment: 0,
     comment: 0,
-    lines: ['김유니', '홍길동']
+    lines: [{ name: '김유니' }, { name: '홍길동' }]
   },
   {
     status: '완료',
@@ -103,7 +108,7 @@ list.data = RealTouch.createListData('', {}, [
     approval: '2025-03-30 11:00',
     attachment: 2,
     comment: 2,
-    lines: ['박지훈', '김부장']
+    lines: [{ name: '박지훈' }, { name: '김부장' }]
   },
   {
     status: '진행',
@@ -113,7 +118,7 @@ list.data = RealTouch.createListData('', {}, [
     approval: '2025-03-26 14:11',
     attachment: 0,
     comment: 1,
-    lines: ['최우선', '김개발', '박팀장']
+    lines: [{ name: '최우선' }, { name: '김개발' }, { name: '박팀장' }]
   },
   {
     status: '진행',
@@ -123,6 +128,6 @@ list.data = RealTouch.createListData('', {}, [
     approval: '2025-02-10 09:20',
     attachment: 0,
     comment: 0,
-    lines: ['유재현', '김과장']
+    lines: [{ name: '유재현' }, { name: '김과장' }]
   }
 ]);

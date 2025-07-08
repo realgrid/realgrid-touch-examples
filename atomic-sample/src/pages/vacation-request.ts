@@ -1,5 +1,5 @@
 import RealTouch from 'realgrid-touch';
-import { row, header } from '@components/vacation/request'
+import { row, header } from '@components/templates/Vacation'
 
 const list = RealTouch.createListControl(document, 'realtouch');
 const config = {

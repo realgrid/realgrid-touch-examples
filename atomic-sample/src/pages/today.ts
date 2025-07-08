@@ -1,5 +1,5 @@
 import RealTouch from 'realgrid-touch';
-import { row, header } from '@components/today/today'
+import { row, header } from '@components/templates/Today'
 
 console.log(row);
 const list = RealTouch.createListControl(document, 'realtouch');

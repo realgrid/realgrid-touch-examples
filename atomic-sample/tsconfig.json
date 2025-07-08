@@ -12,6 +12,7 @@
     "baseUrl": "./src",
     "paths": {
       "@components/*": ["components/*"],
+      "@templates/*": ["components/templates*"],
       "@atoms/*": ["components/atoms/*"],
     }
   },

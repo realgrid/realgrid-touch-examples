@@ -1,5 +1,5 @@
 import RealTouch from 'realgrid-touch';
-import { row, header } from '@components/approval';
+import { row, header } from '@components/templates/Approval';
 
 const list = RealTouch.createListControl(document, 'realtouch');
 const config = {

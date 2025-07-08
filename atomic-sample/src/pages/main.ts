@@ -1,5 +1,5 @@
 import RealTouch from 'realgrid-touch';
-import { row } from '@components/login'
+import { row } from '@components/templates/Login'
 
 const list = RealTouch.createListControl(document, 'realtouch');
 const config = {

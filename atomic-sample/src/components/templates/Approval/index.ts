@@ -1,4 +1,6 @@
 import { Card, Tag, Header } from '@components/atoms';
+import MenuButton from '@molecules/Menu';
+import { RtListControl } from 'realgrid-touch';
 
 const Label = ({label, field, options}: { label?: string, field?: string, options?: any }) => ({
     field,
@@ -31,6 +33,9 @@ const KeyValueBox = ({label, field, space=4}: { label: string, field: string, sp
 
 export const header = Header({
     caption: '결재하기',
+    buttons: [
+        MenuButton()
+    ]
 });
 
 export const row = {

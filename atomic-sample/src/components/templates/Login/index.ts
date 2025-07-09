@@ -4,7 +4,7 @@
 const handleLoginClick = async () => {
     // await fetch('/api/hello');
     // return true;
-    window.location.href = '/request.html';
+    window.location.href = '/approval.html';
 }
 //////////////////////////////////////////////////////
 // styles
@@ -46,7 +46,7 @@ export const row = {
             align: 'center',
             renderer: {
               type: 'image',
-              url: '/images/login_h1.png',
+              url: '/images/logo-unipost.svg',
               onClick: () => {
                 // window.location.href = Site.ORG_PAGE_LINK;
               },
@@ -60,13 +60,13 @@ export const row = {
             width: '100%',
             align: 'center',
             renderer: {
-              type: 'image',
-              url: '/images/login_tit.png',
+              type: 'text',
+              text: '인사 관리 시스템'
             },
             style: {
               fontSize: '28pt',
               // fontWeight: 800,
-              fontFamily: 'Black Han Sans, sans-serif',
+              fontFamily: 'AppleGothic, "Black Han Sans", sans-serif',
               // fontFamily: 'IBM Plex Sans KR, sans-serif',
               textAlign: 'center',
               lineHeight: 'normal',
@@ -102,7 +102,7 @@ export const row = {
             editor: {
               type: 'text',
               fitHeight: 1,
-              placeholder: '지정번호',
+              placeholder: '아이디',
               required: true,
               style: '--input-style',
               onChange: ({ editValue }: { editValue: string }) => {
@@ -158,32 +158,6 @@ export const row = {
       },
       {
         width: '100%',
-        height: 52,
-        layout: 'vlinear',
-        itemsArrange: 'center',
-        children: [
-          {
-            width: '100%',
-            layout: 'hlinear',
-            itemsArrange: 'center',
-            children: [
-              {
-                value: '지정판매소 등록업체만 주문이 가능합니다.',
-              },
-            ],
-          },
-        ],
-        style: {
-          backgroundColor: '#f7f7f7',
-          fontSize: '14px',
-          color: '#7b7a7a',
-        },
-      },
-      {
-        space: 3,
-      },
-      {
-        width: '100%',
         layout: 'hlinear',
         itemsArrange: 'center',
         children: [
@@ -194,10 +168,10 @@ export const row = {
             },
           },
           {
-            value: 'Demo Page',
+            value: 'RealGrid Touch Demo Page',
             renderer: {
               type: 'link',
-              link: '../demo',
+              link: 'https://touch.realgrid.com/demo',
               style: {
                 textDecoration: 'none',
                 color: '#222',

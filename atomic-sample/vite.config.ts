@@ -7,6 +7,7 @@ export default defineConfig({
     alias: {
       '@components': path.resolve(__dirname, 'src/components'),
       '@templates': path.resolve(__dirname, 'src/components/templates'),
+      '@molecules': path.resolve(__dirname, 'src/components/molecules'),
       '@atoms': path.resolve(__dirname, 'src/components/atoms'),
     },
   },

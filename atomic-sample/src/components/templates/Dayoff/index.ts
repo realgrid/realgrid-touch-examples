@@ -1,6 +1,6 @@
-import { RtListControl, RtSimpleData } from 'realgrid-touch';
 import { card } from './card';
 import { Header } from '@components/atoms';
+import MenuButton from '@molecules/Menu';
 
 //////////////////////////////////////////////////////
 // templates
@@ -61,6 +61,7 @@ export const header = Header({
                 padding: '4px 8px',
                 fontSize: '11pt'
             }
-        }
+        },
+        MenuButton()
     ],
 });

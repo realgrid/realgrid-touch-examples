@@ -4,7 +4,7 @@
   },
   "scripts": {
     "dev": "npx vite",
-    "start": "npx serve ./dist",
+    "start": "npx http-server ./dist",
     "build": "npx vite build"
   },
   "devDependencies": {
